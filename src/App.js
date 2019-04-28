@@ -34,7 +34,6 @@ class App extends Component {
             <CounterButton  onClick={this.handleUpdate} counter={10}/>
             <CounterButton  onClick={this.handleUpdate} counter={15}/>
             <button onClick={()=> alert('Do you love me')}   > Click Me </button>
-            <button onClick={this.handleUpdate} > i love you kanak: {this.state.counter}</button>
         </div>
       </header>
     </div>
